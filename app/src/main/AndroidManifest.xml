@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity2">
+            <intent-filter>
+                <action android:name="ActionTest" />
+             <category android:name="android.intent.category.DEFAULT"/>
+             <category android:name="Category" />
+                <category android:name="Category1" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
